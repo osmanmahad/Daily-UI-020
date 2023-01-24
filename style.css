@@ -1,3 +1,9 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+}
 body {
   height: 100vh;
   background-color: #61876e;
@@ -38,9 +44,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.container {
+#container {
   max-width: 700px;
-  display: block;
+  display: none;
   margin-right: auto;
   margin-left: auto;
   width: 100%;
@@ -87,8 +93,8 @@ button {
   border-radius: 25px;
 }
 
-.middle {
-  display: flex;
+#middle {
+  display: none;
   align-items: center;
   justify-content: center;
   height: 100%;
@@ -109,7 +115,7 @@ button {
   margin-bottom: 30px;
 }
 
-.container p {
+#container p {
   text-align: center;
   margin-bottom: 10px;
 }

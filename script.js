@@ -11,6 +11,8 @@ document
     document.getElementById("data").style.display = "flex";
     document.getElementById("inputs_").style.display = "block";
     document.getElementById("pin").style.display = "block";
+    document.getElementById("container").style.display = "block";
+    document.getElementById("middle").style.display = "flex";
   });
 
 window.onload = function () {
