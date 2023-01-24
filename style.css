@@ -74,6 +74,7 @@ button {
   border: none;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .around p {
